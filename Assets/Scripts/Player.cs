@@ -20,6 +20,17 @@ public class Player : MonoBehaviour
     {
         Move();
 
+        /*Input.GetKey(KeyCode.);//Checking if the button/key is being pressed and held down
+        Input.GetKeyUp();//Checks if the button/key is being released after being pressed down
+        Input.GetKeyDown();//Checks if the button/key is being pressed down
+
+        Input.GetButton();
+        Input.GetButtonUp();
+        Input.GetButtonDown();*/
+
+        if (Input.GetButtonDown("Fire1"))
+
+
         {
             Attack();
         }

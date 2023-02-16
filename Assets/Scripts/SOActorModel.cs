@@ -28,6 +28,7 @@ public class SOActorModel : ScriptableObject
     public float speed;
     public int hitPower;
     public int score;
+    public string colourName;
 
     public GameObject actor;
     public GameObject actorBullet;
